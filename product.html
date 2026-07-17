@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>琥珀时 AMBOUR | 灯具产品详情</title>
+    <meta name="description" content="琥珀时灯具产品详情页，展示不同形状的黄昏光影灯具。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="detail-page">
+    <div class="grain" aria-hidden="true"></div>
+    <div class="fluid-cursor" aria-hidden="true"></div>
+    <header class="site-header detail-header">
+      <a class="brand-mark" href="index.html" aria-label="返回琥珀时首页">
+        <img src="assets/amber-logo-05.svg" alt="琥珀时品牌标志" />
+      </a>
+      <nav class="nav-links" aria-label="产品导航">
+        <a href="index.html#products">全部灯具</a>
+        <a href="index.html#story">品牌故事</a>
+      </nav>
+      <a class="nav-action" href="index.html">返回首页</a>
+    </header>
+
+    <main class="product-detail">
+      <section class="detail-hero section">
+        <div class="detail-copy" data-reveal>
+          <p class="intro-line" id="product-kicker">AMBOUR LAMP</p>
+          <h1 id="product-title">圆盘落日灯</h1>
+          <p id="product-description">
+            以日落圆盘为灵感，把低刺激琥珀光线压成柔和的卧室光晕，让睡前空间像黄昏一样慢下来。
+          </p>
+          <div class="detail-actions">
+            <button class="button primary tone-shift" type="button">切换试光颜色</button>
+            <a class="button ghost" href="index.html#products">选择其他灯具</a>
+          </div>
+        </div>
+        <div class="detail-stage" data-reveal>
+          <span class="detail-glow"></span>
+          <span id="detail-lamp" class="lamp-3d disc-3d is-detail" aria-hidden="true">
+            <i class="shade"></i><i class="stem"></i><i class="base"></i><i class="light"></i>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
